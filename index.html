@@ -62,16 +62,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<div id="floating-offer" style="position: fixed; bottom: 110px; left: 50%; transform: translateX(-50%); background-color: #1abc9c; color: white; padding: 15px 20px; border-radius: 20px; font-size: 16px; z-index: 10000; box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); font-family: 'Cairo', sans-serif; text-align: center; white-space: nowrap; max-width: 100%; min-width: 250px;">
+<div id="floating-offer" style="position: fixed; bottom: 07px; left: 50%; transform: translateX(-50%); background-color: #1abc9c; color: white; padding: 15px 20px; border-radius: 20px; font-size: 16px; z-index: 10000; box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); font-family: 'Cairo', sans-serif; text-align: center; white-space: nowrap; max-width: 100%; min-width: 250px;">
     خصم مميز على نقل العفش لفترة محدودة
 </div>
 
-<div id="countdown-container" style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; background-color: white; color: black; padding: 20px; border-radius: 30px; box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); z-index: 9999; font-family: 'Cairo', sans-serif;">
+<div id="countdown-container" style="position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; background-color: white; color: black; padding: 20px; border-radius: 30px; box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); z-index: 9999; font-family: 'Cairo', sans-serif;">
   
     <!-- Circular Countdown Timer -->
-    <div id="countdown-timer" style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 25px;">
+    <div id="countdown-timer" style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 15px;">
         <div class="countdown-section">
-            <div class="circle" style="position: relative; width: 80px; height: 80px;">
+            <div class="circle" style="position: relative; width: 50px; height: 50px;">
                 <svg width="80" height="80">
                     <circle cx="40" cy="40" r="35" stroke="#e0e0e0" stroke-width="5" fill="none"></circle>
                     <circle class="progress" id="days-progress" cx="40" cy="40" r="35" stroke="#3498db" stroke-width="5" fill="none" stroke-dasharray="220" stroke-dashoffset="220"></circle>
@@ -82,7 +82,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <div class="countdown-section">
-            <div class="circle" style="position: relative; width: 80px; height: 80px;">
+            <div class="circle" style="position: relative; width: 50px; height: 50px;">
                 <svg width="80" height="80">
                     <circle cx="40" cy="40" r="35" stroke="#e0e0e0" stroke-width="5" fill="none"></circle>
                     <circle class="progress" id="hours-progress" cx="40" cy="40" r="35" stroke="#3498db" stroke-width="5" fill="none" stroke-dasharray="220" stroke-dashoffset="220"></circle>
@@ -93,7 +93,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <div class="countdown-section">
-            <div class="circle" style="position: relative; width: 80px; height: 80px;">
+            <div class="circle" style="position: relative; width: 50px; height: 50px;">
                 <svg width="80" height="80">
                     <circle cx="40" cy="40" r="35" stroke="#e0e0e0" stroke-width="5" fill="none"></circle>
                     <circle class="progress" id="minutes-progress" cx="40" cy="40" r="35" stroke="#3498db" stroke-width="5" fill="none" stroke-dasharray="220" stroke-dashoffset="220"></circle>
@@ -104,7 +104,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <div class="countdown-section">
-            <div class="circle" style="position: relative; width: 80px; height: 80px;">
+            <div class="circle" style="position: relative; width: 50px; height: 50px;">
                 <svg width="80" height="80">
                     <circle cx="40" cy="40" r="35" stroke="#e0e0e0" stroke-width="5" fill="none"></circle>
                     <circle class="progress" id="seconds-progress" cx="40" cy="40" r="35" stroke="#3498db" stroke-width="5" fill="none" stroke-dasharray="220" stroke-dashoffset="220"></circle>
@@ -136,7 +136,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     (function() {
         // Set the countdown to 5 days from now
         var countdownDate = new Date();
-        countdownDate.setDate(countdownDate.getDate() + 5);
+        countdownDate.setDate(countdownDate.getDate() + 2);
 
         // Function to update the countdown timer and progress circles
         function updateCountdown() {
